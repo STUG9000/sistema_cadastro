@@ -1,0 +1,65 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    height: 100%;
+    background-color:mediumseagreen;
+}
+
+.esquerda {
+    height: 100%;
+    width: 50%;
+}
+
+#pergunta {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#login {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+#frase {
+    color:rgb(221, 186, 246);
+    font-family: 'Courier New', Courier, monospace;
+    margin:45px;
+}
+
+header {
+    display: flex;
+    height: 15%;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+}
+
+p {
+    color:gold;
+    font-size: larger;
+}
+
+.direita {
+    height: 100%;
+    width: 50%;
+}
+
+.formulario {
+    display:flex;
+    justify-content: center;
+}
+
+#data {
+    width: 166px;
+}
+
+
+#enviar {
+    width: 200px;
+    height: 45px;
+}
